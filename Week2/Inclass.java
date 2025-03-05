@@ -15,7 +15,7 @@ public class Inclass {
         int x = i++;
         System.out.println("i = " + i + " x = " + x);
 
-        // Increments x by 1, then gives the value to y
+        // Increments x by 1, then assigns the value to y
         int y = x += 1;
         System.out.println("i = " + i + " x = " + x + " y = " + y);
     }
